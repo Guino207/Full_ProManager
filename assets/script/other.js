@@ -44,7 +44,7 @@
 
     
 
-    document.getElementById('configForm').addEventListener('submit', (e) => { e.preventDefault(); alert('✅ Configurações salvas com sucesso!'); });
+    document.getElementById('configForm').addEventListener('submit', (e) => { e.preventDefault(); alert('Configurações salvas com sucesso!'); });
 
 
     document.getElementById('allProjectsGrid').innerHTML = document.getElementById('projectsGrid').innerHTML;
